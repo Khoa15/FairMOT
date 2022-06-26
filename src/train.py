@@ -27,7 +27,8 @@ def main(opt):
     f = open(opt.data_cfg)
     data_config = json.load(f)
     trainset_paths = data_config['train']
-    dataset_root = data_config['root']
+    dataset_root = "/content/drive/MyDrive/datasets/FairMOT"#data_config['root']=/home/zyf/dataset
+    print(dataset_root)
     f.close()
     transforms = T.Compose([T.ToTensor()])
     dataset = Dataset(opt, dataset_root, trainset_paths, (1088, 608), augment=True, transforms=transforms)
