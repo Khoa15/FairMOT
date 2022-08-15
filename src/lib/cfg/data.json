@@ -1,5 +1,5 @@
 {
-    "root":"/content/drive/MyDrive/datasets/FairMOT",
+    "root":"/content/drive/MyDrive/dataset/FairMOT",
     "train":
     {
         "mot17":"./data/mot17.train",

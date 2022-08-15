@@ -1,5 +1,5 @@
 {
-    "root":"/home/zyf/dataset",
+    "root":"/content/drive/MyDrive/dataset/FairMOT",
     "train":
     {
         "crowdhuman_train":"./data/crowdhuman.train",
